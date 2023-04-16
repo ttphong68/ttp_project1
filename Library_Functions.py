@@ -65,7 +65,9 @@ def text_to_speech(text):
 #---------------------------------------------------------------------------------------------
 @st.cache_data
 def df():
-    df = pd.read_csv('data/Products_Shopee_comments_cleaned_ver01.csv')
+    df1 = pd.read_csv('data/Products_Shopee_comments_cleaned_ver01_1.csv')
+    df2 = pd.read_csv('data/Products_Shopee_comments_cleaned_ver01_2.csv')
+    df = pd.concat([df1, df2], ignore_index=True)
     return df
 #---------------------------------------------------------------------------------------------
 @st.cache_data
