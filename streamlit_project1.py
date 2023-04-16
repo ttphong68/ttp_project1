@@ -52,7 +52,7 @@ import openai
 # link lấy Organization ID https://beta.openai.com/account/org-settings
 openai.organization = 'org-Vf0cOHTHl3VyD7bUQSqDmglv'
 # link tạo   đó https://beta.openai.com/account/api-keys
-openai.api_key = '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'
+openai.api_key = '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'
 
 #----------------------------------------------------------------------------------------------------
 # Part 1: Build project
@@ -569,6 +569,7 @@ elif choice == 'Dự đoán mới':
                 text = nhan_text()
             except:
                 text = ""
+
             if text == "":
                 voice = "bạn muốn nói gì với chatGPT"
                 st.write(voice)
