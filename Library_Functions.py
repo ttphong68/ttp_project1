@@ -49,9 +49,7 @@ def speech_to_text():
         audio = r.listen(source,phrase_time_limit=5)
     try:
         text = r.recognize_google(audio,language="vi-VI")
-        # print("Bạn -->: {}".format(text))
     except:
-        # print("Xin lỗi! tôi không nhận được giọng nói!")
         text="Xin lỗi! tôi không nhận được giọng nói"
     return str(text)
 #---------------------------------------------------------------------------------------------

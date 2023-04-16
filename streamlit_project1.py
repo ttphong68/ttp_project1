@@ -150,7 +150,7 @@ def dung():
     text_to_speech("Hẹn gặp lại bạn sau!")
 #------------------------------------------------------------------------------------------------------------------
 def nhan_text():
-    for i in range(3):
+    for i in range(10):
         st.write('Mời bạn nói: ')
         text = speech_to_text()
         if text:
@@ -361,8 +361,8 @@ elif choice == 'Dự đoán mới':
     st.write('''
     Nhập vào một bình luận và mô hình sẽ dự đoán tình cảm của bình luận. 
     ''')
-    # menu = ["Nhập bình luận", "Tải tệp Excel", "Tải tệp CSV", "Bình luận bằng giọng nói", "Nói chuyện với chatGPT"]
-    menu = ["Nhập bình luận", "Tải tệp Excel", "Tải tệp CSV"]
+    menu = ["Nhập bình luận", "Tải tệp Excel", "Tải tệp CSV", "Bình luận bằng giọng nói", "Nói chuyện với chatGPT"]
+    # menu = ["Nhập bình luận", "Tải tệp Excel", "Tải tệp CSV"]
     choice = st.selectbox("Menu",menu)
     if choice == "Nhập bình luận":
         comment = st.text_input('Nhập vào một bình luận')
