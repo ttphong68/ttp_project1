@@ -6,8 +6,6 @@ streamlit
 underthesea
 wordcloud
 import_ipynb
-pipwin
-pyaudio
 SpeechRecognition
 openai
 youtube_search
