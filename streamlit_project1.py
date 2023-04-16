@@ -150,7 +150,7 @@ def dung():
     text_to_speech("Hẹn gặp lại bạn sau!")
 #------------------------------------------------------------------------------------------------------------------
 def nhan_text():
-    for i in range(10):
+    for i in range(30):
         st.write('Mời bạn nói: ')
         text = speech_to_text()
         if text:
