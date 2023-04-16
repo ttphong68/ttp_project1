@@ -7,7 +7,7 @@ underthesea
 wordcloud
 import_ipynb
 SpeechRecognition
-PyAudio
+pyaudio
 openai
 youtube_search
 webdriver_manager
