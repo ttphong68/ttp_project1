@@ -11,9 +11,9 @@ import scipy
 from scipy.stats import iqr
 from scipy.stats import chi2_contingency
 from scipy.stats import chi2
-import statsmodels.api as sm
-from statsmodels.formula.api import ols
-from statsmodels.stats.multicomp import pairwise_tukeyhsd
+# import statsmodels.api as sm
+# from statsmodels.formula.api import ols
+# from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 from underthesea import word_tokenize, pos_tag, sent_tokenize
 import regex
@@ -21,9 +21,9 @@ import demoji
 from pyvi import ViPosTagger, ViTokenizer
 import string
 
-# from sklearn.model_selection import train_test_split
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
 
 # for report:
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
