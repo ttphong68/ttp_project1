@@ -1,22 +1,6 @@
 
 from Library_Functions import *
 #----------------------------------------------------------------------------------------------------
-# Support voice
-import time
-import sys
-import ctypes
-import datetime
-import json
-import re
-import webbrowser
-import smtplib
-import requests
-import urllib
-import urllib.request as urllib2
-from time import strftime
-import pyaudio
-
-#----------------------------------------------------------------------------------------------------
 # Part 1: Build project
 #----------------------------------------------------------------------------------------------------
 

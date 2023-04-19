@@ -11,9 +11,6 @@ import scipy
 from scipy.stats import iqr
 from scipy.stats import chi2_contingency
 from scipy.stats import chi2
-# import statsmodels.api as sm
-# from statsmodels.formula.api import ols
-# from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 from underthesea import word_tokenize, pos_tag, sent_tokenize
 import regex
@@ -58,6 +55,21 @@ import datetime
 from time import strftime
 import os
 import time
+#----------------------------------------------------------------------------------------------------
+# Support voice
+import time
+import sys
+import ctypes
+import datetime
+import json
+import re
+import webbrowser
+import smtplib
+import requests
+import urllib
+import urllib.request as urllib2
+from time import strftime
+
 import warnings
 warnings.filterwarnings("ignore")
 
