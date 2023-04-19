@@ -1,0 +1,13 @@
+numpy
+pandas
+seaborn
+streamlit
+underthesea
+wordcloud
+import_ipynb
+statsmodels
+demoji	
+pyvi
+emoji
+imblearn
+openpyxl
