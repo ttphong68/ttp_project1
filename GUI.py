@@ -385,11 +385,11 @@ elif choice == 'Dự đoán mới':
 
                 if y_predict[0] == 1:
                     sentiment = 'Tình cảm của bình luận là tích cực'
-                    st.write(sentiment)
                 else:
                     sentiment = 'Tình cảm của bình luận là tiêu cực'
-                    st.write(sentiment)
-                    # text_to_speech(sentiment)
+
+                st.write(sentiment)
+                text_to_speech(sentiment)
 
             else:
                 st.warning("Hãy tải lên một tệp âm thanh để chuyển đổi")
