@@ -74,15 +74,6 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #---------------------------------------------------------------------------------------------
-def text_to_speech(text):
-    output = gTTS(text,lang="vi", slow=False)
-    date_string = datetime.datetime.now().strftime("%d%m%Y%H%M%S")
-    filename = "voice"+date_string+".mp3"
-    output.save(filename)
-    playsound.playsound(filename)
-    os.remove(filename)
-
-#---------------------------------------------------------------------------------------------
 ##LOAD EMOJICON
 file = open('files/emojicon.txt', 'r', encoding="utf8")
 emoji_lst = file.read().split('\n')
