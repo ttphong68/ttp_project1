@@ -117,10 +117,10 @@ if choice == 'Tổng quan':
     st.write('''
     Mô hình được xây dựng với Logistic Regression và sử dụng oversampling data:
     - Mô hình có độ chính xác 87% ( Accuracy ).
-    - Mô hình có độ chính xác 94% ( precision ) cho lớp tích cực ( positive class ).
-    - Mô hình có độ chính xác 85% ( recall ) cho lớp tích cực ( positive class ).
-    - Mô hình có độ chính xác 71% ( precision ) cho lớp tiêu cực ( negative class ).
-    - Mô hình có độ chính xác 87% ( recall ) cho lớp tiêu cực ( negative class ). 
+    - Mô hình có độ chính xác 95% ( precision ) cho lớp tích cực ( positive class ).
+    - Mô hình có độ chính xác 86% ( recall ) cho lớp tích cực ( positive class ).
+    - Mô hình có độ chính xác 74% ( precision ) cho lớp tiêu cực ( negative class ).
+    - Mô hình có độ chính xác 90% ( recall ) cho lớp tiêu cực ( negative class ). 
     ''')
     st.subheader('2.Giáo viên hướng dẫn')
     st.write('''
